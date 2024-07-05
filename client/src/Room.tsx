@@ -6,8 +6,7 @@ import { SocketContext } from "./SocketContext";
 import Opponent from "./Opponent";
 
 function Room() {
-  // const { roomId } = useParams();
-  const { socket }:any = useContext(SocketContext);
+   const { socket }:any = useContext(SocketContext);
   const [mark, setMyMark] = useState("");
   const [id, setId] = useState("");
   const [name, setName] = useState("");

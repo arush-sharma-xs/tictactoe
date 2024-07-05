@@ -23,9 +23,8 @@ io.on("connection", (socket) => {
     userManager.addUser(user, socket);
   });
 
-  socket.on("markBox", (mark, position) => {
-    console.log(position)
-    roomManager.boardState(mark, position, socket);
+  socket.on("updateBoard", (mark, index, roomId) => {
+      roomManager.updateBoard(mark, index, roomId);
   })
 
 });
