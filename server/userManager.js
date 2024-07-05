@@ -36,7 +36,6 @@ export class UserManager {
     }
 
     console.log(user1.socket.id, user2.socket.id);
-
     this.roomManager.createRoom(user1, user2);
   }
 

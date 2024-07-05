@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { SocketContext } from "./SocketContext";
 
 function Player() {
-  const { currentUser } = useContext(SocketContext);
+  const { currentUser }:any = useContext(SocketContext);
 
   return (
     <div className="flex flex-col items-center justify-center gap-4">

@@ -18,7 +18,7 @@ function Landing() {
   });
 
   return (
-    <div className="relative h-screen w-full flex flex-col items-center  space-y-16 bg-orange-50 pt-16">
+    <div className="relative h-screen w-full flex flex-col items-center  space-y-16 pt-16">
       <h1 className="text-6xl font-bold">✖️ Tick Tack Toe ⭕</h1>
       <input
         type="text"
